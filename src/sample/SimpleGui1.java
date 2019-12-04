@@ -2,7 +2,7 @@ package sample;
 
 import javax.swing.*;
 
-public class SimpleGuil {
+public class SimpleGui1 {
     public static void main (String[] args) {
 
         JFrame frame = new JFrame();

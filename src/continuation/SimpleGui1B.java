@@ -3,11 +3,11 @@ package continuation;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class SimpleGuilB implements ActionListener { // <--Кнопка будет передавать собитий только тем,кто реализует этот инт-йс
+public class SimpleGui1B implements ActionListener { // <--Кнопка будет передавать собитий только тем,кто реализует этот инт-йс
     JButton button;
 
     public static void main (String[] args) {
-        SimpleGuilB gui = new SimpleGuilB();
+        SimpleGui1B gui = new SimpleGui1B();
         gui.go();
     }
 
